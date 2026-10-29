@@ -11,4 +11,8 @@ app.use(express.json())
 
 app.use('/countries', countryRouter)
 
+app.get('/', (req, res) => { 
+    res.send('You alright babes x')  
+}) 
+
 module.exports = app

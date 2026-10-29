@@ -65,9 +65,10 @@ All available API endpoints with their methods and descriptions.
 | Method | Endpoint                  | Description                  |
 |--------|---------------------------|------------------------------|
 | GET    | /countries                | Retrieves all countries      |
-| GET    | /countries/:name            | Retrieves a single country |
+| GET    | /countries/:name          | Retrieves a single country   |
 | POST   | /countries                | Creates a new country        |
-| DELETE | /countries/:name            | Deletes a country          |
+| PATCH  | /countries/:name          | Updates a country            |
+| DELETE | /countries/:name          | Deletes a country            |
 
 
 ## Get all countries
