@@ -12,7 +12,7 @@ class Country {
     }
 
     static async getAll () {
-        const response = await db.query('SELECT name FROM country;')
+        const response = await db.query('SELECT * FROM country;')
 
         if (response.rowCount.length === 0) {
             throw new Error('No countries available')
